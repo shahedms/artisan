@@ -1,0 +1,128 @@
+.welcome-container {
+  position: relative;
+}
+.welcome-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.welcome-container h2 {
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  text-align: justify;
+  font-size: 35px;
+}
+
+.mini-about {
+  padding: 40px 15px;
+  background-color: #95a792;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mini-about h2 {
+  /* float: left;
+  padding-right: 40px; */
+  font-size: 30px;
+}
+
+.p-about {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ref-about {
+  text-decoration: none;
+  border: 1px solid #b7c3b7;
+  background-color: #b7c3b7;
+  color: #545b53;
+  padding: 5px 7px;
+  border-radius: 0.2rem;
+  text-align: center;
+}
+
+.ref-about:hover {
+  border-bottom: 1px solid transparent;
+}
+
+.explore h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.custom-line {
+  width: 350px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+.img-item {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.img-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.img-artist {
+  line-height: 4px;
+  text-align: left;
+}
+
+.img-title {
+  line-height: 4px;
+  text-align: left;
+}
+
+.img-dimpaint {
+  line-height: 4px;
+  text-align: left;
+}
+
+.img-price {
+  line-height: 4px;
+  text-align: left;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+}
+
+.btn:hover {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.review-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.review {
+  background-color: #cfd4cf;
+  width: 30%;
+  height: auto;
+  padding: 10px 10px;
+}
+
+.rev-section {
+  margin-bottom: 30px;
+}
+
+i {
+  color: #403f48;
+}

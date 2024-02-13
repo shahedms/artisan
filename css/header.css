@@ -1,0 +1,70 @@
+* {
+  font-family: "EB Garamond", serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+body {
+  background-color: #f0efed;
+  color: #403f48;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid transparent; /* Add a transparent underline */
+  transition: border-bottom 0.3s ease;
+}
+
+a:hover {
+  /* text-decoration: underline; */
+  border-bottom: 1px solid #403f48;
+}
+
+.title {
+  font-size: 47.78px;
+  padding-left: 14px;
+}
+
+.title:hover {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+nav {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+nav a {
+  padding: 14px 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: larger;
+}
+
+.right {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+/* header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #f0efed;
+  z-index: 1000; 
+}
+
+body {
+  padding-top: 110px; 
+} */
+
+/* Your existing styles */

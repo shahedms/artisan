@@ -1,0 +1,93 @@
+.head {
+  text-align: center;
+}
+
+.custom-line {
+  width: 350px;
+  margin-bottom: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.add-to-cart-btn {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: inline-block;
+}
+
+.item {
+  background-color: #e1e0dd;
+  padding: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.item:hover {
+  display: block;
+}
+
+.item:not(:hover) .add-to-cart-btn {
+  display: none;
+}
+
+.img-artist {
+  font-weight: bold;
+  line-height: 5px;
+  text-align: left;
+}
+
+.img-title {
+  line-height: 5px;
+  text-align: left;
+}
+
+.img-dim {
+  line-height: 5px;
+  text-align: left;
+}
+
+.img-medium {
+  line-height: 5px;
+  text-align: left;
+}
+
+.img-price {
+  line-height: 5px;
+  text-align: left;
+}
+
+.cart-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #403f48;
+  margin-bottom: 5px;
+  float: right;
+  background-color: #9fac9d;
+  border: 1px solid #9fac9d;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.cart-btn:hover {
+  cursor: pointer;
+  background-color: #8a9d86;
+  border-color: #8a9d86;
+}
+
+.cart-btn:hover a {
+  border-bottom: 1px solid transparent;
+}
+
+.custom-line {
+  width: 350px;
+}

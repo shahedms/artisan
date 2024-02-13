@@ -1,0 +1,71 @@
+#title {
+  text-align: center;
+}
+
+.checkoutForm {
+  display: grid;
+}
+
+.checkoutForm input,
+.checkoutForm select {
+  margin: 5px 10px;
+  height: 25px;
+  font-size: 15px;
+}
+
+#ex-cv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#btn {
+  padding: 10px;
+  background-color: #9fac9d;
+  border: 1px solid #9fac9d;
+  border-radius: 2%;
+  color: #2f2e33;
+  margin: 0 39%;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+#btn:hover {
+  padding: 10px;
+  background-color: #8b968a;
+  border: 1px solid #8b968a;
+  transition: 0.2s ease;
+  border-radius: 2%;
+  color: #2f2e33;
+}
+
+.order-summary {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#total {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
